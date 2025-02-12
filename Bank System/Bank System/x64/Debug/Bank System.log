@@ -1,0 +1,236 @@
+﻿  Bank System.cpp
+C:\Users\HP\source\repos\Bank System\Admin.h(5,15): error C2065: 'Admin': undeclared identifier
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(5,8): error C2923: 'std::vector': 'Admin' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bank%20System.cpp')
+      C:\Users\HP\source\repos\Bank System\Admin.h(5,15):
+      see declaration of 'Admin'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(5,8): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(5,22): error C2133: 'allEmployees': unknown size
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(5,22): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(6,15): error C2065: 'Admin': undeclared identifier
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(6,8): error C2923: 'std::vector': 'Admin' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bank%20System.cpp')
+      C:\Users\HP\source\repos\Bank System\Admin.h(6,15):
+      see declaration of 'Admin'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(6,8): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(6,23): error C2955: 'std::vector': use of class template requires template argument list
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(6,32): error C2133: 'employee': unknown size
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(6,32): error C2512: 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>': no appropriate default constructor available
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(255,7):
+      see declaration of 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(12,16): error C2663: 'std::vector<_Ty,_Alloc>::push_back': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(870,23):
+      could be 'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)'
+          C:\Users\HP\source\repos\Bank System\Admin.h(12,16):
+          'void std::vector<_Ty,_Alloc>::push_back(_Ty &&)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(12,3):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(12,3):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(866,23):
+      or       'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)'
+          C:\Users\HP\source\repos\Bank System\Admin.h(12,16):
+          'void std::vector<_Ty,_Alloc>::push_back(const _Ty &)': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(12,3):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(12,3):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(12,16):
+      while trying to match the argument list '(Employee)'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(15,32): error C2663: 'std::vector<_Ty,_Alloc>::begin': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1803,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const'
+          C:\Users\HP\source\repos\Bank System\Admin.h(15,32):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,19):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,19):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1798,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept'
+          C:\Users\HP\source\repos\Bank System\Admin.h(15,32):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,19):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,19):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(15,32):
+      while trying to match the argument list '()'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(15,17): error C2582: 'operator =' function is unavailable in 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(15,66): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1813,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          C:\Users\HP\source\repos\Bank System\Admin.h(15,66):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,53):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,53):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1808,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          C:\Users\HP\source\repos\Bank System\Admin.h(15,66):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,53):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,53):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(15,66):
+      while trying to match the argument list '()'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(15,50): error C2088: built-in operator '!=' cannot be applied to an operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(15,73): error C2678: binary '++': no operator found which takes a left-hand operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' (or there is no acceptable conversion)
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(291,35):
+      could be 'std::_Vector_iterator<_Myvec> std::_Vector_iterator<_Myvec>::operator ++(int) noexcept'
+          C:\Users\HP\source\repos\Bank System\Admin.h(15,73):
+          'std::_Vector_iterator<_Myvec> std::_Vector_iterator<_Myvec>::operator ++(int) noexcept': cannot convert 'this' pointer from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'std::_Vector_iterator<_Myvec> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,73):
+              Reason: cannot convert from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'std::_Vector_iterator<_Myvec>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(15,73):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(15,73):
+      while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>, int)'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(16,8): error C2678: binary '->': no operator found which takes a left-hand operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' (or there is no acceptable conversion)
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(274,37):
+      could be '_Myvec::pointer std::_Vector_iterator<_Myvec>::operator ->(void) noexcept const'
+          C:\Users\HP\source\repos\Bank System\Admin.h(16,8):
+          '_Myvec::pointer std::_Vector_iterator<_Myvec>::operator ->(void) noexcept const': cannot convert 'this' pointer from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'const std::_Vector_iterator<_Myvec> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(16,8):
+              Reason: cannot convert from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'const std::_Vector_iterator<_Myvec>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(16,8):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(16,8):
+      while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>)'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(26,32): error C2663: 'std::vector<_Ty,_Alloc>::begin': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1803,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const'
+          C:\Users\HP\source\repos\Bank System\Admin.h(26,32):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,19):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,19):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1798,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept'
+          C:\Users\HP\source\repos\Bank System\Admin.h(26,32):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,19):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,19):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(26,32):
+      while trying to match the argument list '()'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(26,17): error C2582: 'operator =' function is unavailable in 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(26,66): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1813,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          C:\Users\HP\source\repos\Bank System\Admin.h(26,66):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,53):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,53):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(1808,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          C:\Users\HP\source\repos\Bank System\Admin.h(26,66):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,53):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,53):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(26,66):
+      while trying to match the argument list '()'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(26,50): error C2088: built-in operator '!=' cannot be applied to an operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(26,73): error C2678: binary '++': no operator found which takes a left-hand operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' (or there is no acceptable conversion)
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(291,35):
+      could be 'std::_Vector_iterator<_Myvec> std::_Vector_iterator<_Myvec>::operator ++(int) noexcept'
+          C:\Users\HP\source\repos\Bank System\Admin.h(26,73):
+          'std::_Vector_iterator<_Myvec> std::_Vector_iterator<_Myvec>::operator ++(int) noexcept': cannot convert 'this' pointer from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'std::_Vector_iterator<_Myvec> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,73):
+              Reason: cannot convert from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'std::_Vector_iterator<_Myvec>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(26,73):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(26,73):
+      while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>, int)'
+  
+C:\Users\HP\source\repos\Bank System\Admin.h(27,4): error C2678: binary '->': no operator found which takes a left-hand operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' (or there is no acceptable conversion)
+  (compiling source file 'Bank%20System.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(274,37):
+      could be '_Myvec::pointer std::_Vector_iterator<_Myvec>::operator ->(void) noexcept const'
+          C:\Users\HP\source\repos\Bank System\Admin.h(27,4):
+          '_Myvec::pointer std::_Vector_iterator<_Myvec>::operator ->(void) noexcept const': cannot convert 'this' pointer from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'const std::_Vector_iterator<_Myvec> &'
+              C:\Users\HP\source\repos\Bank System\Admin.h(27,4):
+              Reason: cannot convert from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'const std::_Vector_iterator<_Myvec>'
+              C:\Users\HP\source\repos\Bank System\Admin.h(27,4):
+              Conversion requires a second user-defined-conversion operator or constructor
+      C:\Users\HP\source\repos\Bank System\Admin.h(27,4):
+      while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>)'
+  
+C:\Users\HP\source\repos\Bank System\DataSourceInterface.h(5,22): error C2371: 'allEmployees': redefinition; different basic types
+  (compiling source file 'Bank%20System.cpp')
+      C:\Users\HP\source\repos\Bank System\Admin.h(5,22):
+      see declaration of 'allEmployees'
+  
+C:\Users\HP\source\repos\Bank System\DataSourceInterface.h(6,32): error C2371: 'employee': redefinition; different basic types
+  (compiling source file 'Bank%20System.cpp')
+      C:\Users\HP\source\repos\Bank System\Admin.h(6,32):
+      see declaration of 'employee'
+  
+C:\Users\HP\source\repos\Bank System\FileManager.h(45,81): error C2088: built-in operator '++' cannot be applied to an operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\FileManager.h(45,97): error C2100: you cannot dereference an operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
+C:\Users\HP\source\repos\Bank System\EmployeeManager.h(63,81): error C2088: built-in operator '++' cannot be applied to an operand of type 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>'
+  (compiling source file 'Bank%20System.cpp')
+  
